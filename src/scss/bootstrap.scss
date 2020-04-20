@@ -1,0 +1,62 @@
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #da0016 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-900 !default;
+$text-muted:    $gray-500 !default;
+
+$body-bg: #000;
+$body-color: #dfdfdf;
+
+$component-active-color:      $white !default;
+$component-active-bg:         $primary !default;
+
+$input-bg:                       $gray-800;
+$input-border-radius:            none !default;
+$input-border-color:             $gray-700 !default;
+$input-color:                    #fff;
+$input-color-placeholder:        #fff;
+$input-focus-border-color:       lighten($primary, 5%);
+$input-focus-box-shadow:         none !default;
+
+$card-bg:                           $gray-700 !default;
+
+$dropdown-bg:                       $gray-800 !default;
+$dropdown-link-color:               $white !default;
+$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-bg:            $primary !default;
+
+$list-group-bg:                     $gray-800 !default;
+$list-group-border-color:           rgba($black, .4) !default;
+
+html, body, #root {
+    height: 100%;
+}
+
+@import '~bootstrap/scss/bootstrap';
